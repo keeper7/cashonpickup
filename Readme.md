@@ -2,7 +2,7 @@
 
 ## About
 
-Accept cash on delivery payments
+Accept cash on pickup payments
 
 ## License
 

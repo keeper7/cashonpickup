@@ -97,7 +97,7 @@ class Rf_Cashonpickup extends PaymentModule
 
         $newOption = new PaymentOption();
         $newOption->setModuleName($this->name)
-            ->setCallToActionText($this->trans('Pay by Cash on Delivery', array(), 'Modules.Cashonpickup.Shop'))
+            ->setCallToActionText($this->trans('Pay by Cash on Pickup', array(), 'Modules.Cashonpickup.Shop'))
             ->setAction($this->context->link->getModuleLink($this->name, 'validation', array(), true))
             ->setAdditionalInformation($this->fetch('module:rf_cashonpickup/views/templates/hook/rf_cashonpickup_intro.tpl'));
 
