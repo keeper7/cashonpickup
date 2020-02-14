@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>k7_cashonpickup</name>
+    <displayName><![CDATA[Platba v hotovosti]]></displayName>
+    <version><![CDATA[1.0.6]]></version>
+    <description><![CDATA[Přij&iacute;mat platby při doručen&iacute; zbož&iacute v hotovosti]]></description>
+    <author><![CDATA[Radoslav Frankovič]]></author>
+    <tab><![CDATA[]]></tab>
+    <is_configurable>0</is_configurable>
+    <need_instance>1</need_instance>
+	<limited_countries></limited_countries>
+</module>
