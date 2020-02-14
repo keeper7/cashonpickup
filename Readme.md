@@ -2,7 +2,12 @@
 
 ## About
 
+Plugin for prestashop v 1.7
 Accept cash on pickup payments
+
+Minimal prestashop version 1.7.1.0
+
+
 
 ## License
 
