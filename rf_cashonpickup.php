@@ -35,6 +35,7 @@ class Rf_Cashonpickup extends PaymentModule
     public function __construct()
     {
         $this->name = 'rf_cashonpickup';
+        $this->tab = 'payments_gateways';
         $this->author = 'Radoslav Frankovič';
         $this->version = '1.0.6';
         $this->need_instance = 1;
@@ -46,7 +47,7 @@ class Rf_Cashonpickup extends PaymentModule
 
         parent::__construct();
 
-        $this->displayName = $this->trans('Cash on pickup', array(), 'Modules.Cashonpickup.Admin');
+        $this->displayName = $this->trans('Cash on pickup (COP)', array(), 'Modules.Cashonpickup.Admin');
         $this->description = $this->trans('Accept cash on pickup payments', array(), 'Modules.Cashonpickup.Admin');
 
         /* For 1.4.3 and less compatibility */
