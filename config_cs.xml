@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <module>
-    <name>rf_cashonpickup</name>
-    <displayName><![CDATA[Platba v hotovosti]]></displayName>
+    <name>cashonpickup</name>
+    <displayName><![CDATA[Cash on pickup (COP)]]></displayName>
     <version><![CDATA[1.0.6]]></version>
-    <description><![CDATA[Přij&iacute;mat platby při doručen&iacute; zbož&iacute v hotovosti]]></description>
+    <description><![CDATA[Accept cash on pickup payments]]></description>
     <author><![CDATA[Radoslav Frankovič]]></author>
-    <tab><![CDATA[]]></tab>
+    <tab><![CDATA[payments_gateways]]></tab>
     <is_configurable>0</is_configurable>
     <need_instance>1</need_instance>
 	<limited_countries></limited_countries>

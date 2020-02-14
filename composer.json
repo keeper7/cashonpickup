@@ -1,7 +1,7 @@
 {
-  "name": "keeper7/rf_cashonpickup",
-  "description": "PrestaShop module rf_cashonpickup",
-  "homepage": "https://github.com/keeper7/rf_cashonpickup",
+  "name": "keeper7/cashonpickup",
+  "description": "PrestaShop module cashonpickup",
+  "homepage": "https://github.com/keeper7/cashonpickup",
   "license": "AFL-3.0",
   "authors": [
     {

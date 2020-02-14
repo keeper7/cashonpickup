@@ -30,11 +30,11 @@ if (!defined('_PS_VERSION_')) {
     exit;
 }
 
-class Rf_Cashonpickup extends PaymentModule
+class Cashonpickup extends PaymentModule
 {
     public function __construct()
     {
-        $this->name = 'rf_cashonpickup';
+        $this->name = 'cashonpickup';
         $this->tab = 'payments_gateways';
         $this->author = 'Radoslav Frankovič';
         $this->version = '1.0.6';
@@ -100,7 +100,7 @@ class Rf_Cashonpickup extends PaymentModule
         $newOption->setModuleName($this->name)
             ->setCallToActionText($this->trans('Pay by Cash on Pickup', array(), 'Modules.Cashonpickup.Shop'))
             ->setAction($this->context->link->getModuleLink($this->name, 'validation', array(), true))
-            ->setAdditionalInformation($this->fetch('module:rf_cashonpickup/views/templates/hook/rf_cashonpickup_intro.tpl'));
+            ->setAdditionalInformation($this->fetch('module:cashonpickup/views/templates/hook/cashonpickup_intro.tpl'));
 
         $payment_options = [
             $newOption,
@@ -134,6 +134,6 @@ class Rf_Cashonpickup extends PaymentModule
                 'contact_url' => $this->context->link->getPageLink('contact', true)
             ));
         }
-        return $this->fetch('module:rf_cashonpickup/views/templates/hook/payment_return.tpl');
+        return $this->fetch('module:cashonpickup/views/templates/hook/payment_return.tpl');
     }
 }

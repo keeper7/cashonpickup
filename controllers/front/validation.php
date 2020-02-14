@@ -27,7 +27,7 @@
 /**
  * @since 1.5.0
  */
-class Rf_CashonpickupValidationModuleFrontController extends ModuleFrontController
+class CashonpickupValidationModuleFrontController extends ModuleFrontController
 {
     public $ssl = true;
 
@@ -40,7 +40,7 @@ class Rf_CashonpickupValidationModuleFrontController extends ModuleFrontControll
         // Check that this payment option is still available in case the customer changed his address just before the end of the checkout process
         $authorized = false;
         foreach (Module::getPaymentModules() as $module) {
-            if ($module['name'] == 'rf_cashonpickup') {
+            if ($module['name'] == 'cashonpickup') {
                 $authorized = true;
                 break;
             }

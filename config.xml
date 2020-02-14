@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <module>
-<name>rf_cashonpickup</name>
+<name>cashonpickup</name>
     <displayName><![CDATA[Cash on pickup]]></displayName>
     <version><![CDATA[1.0.6]]></version>
     <description><![CDATA[Accept cash on pickup]]></description>

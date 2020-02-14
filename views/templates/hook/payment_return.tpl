@@ -28,5 +28,5 @@
   <br><br>
   {l s='You have chosen the cash on pickup method.' d='Modules.Cashonpickup.Shop'}
   <br><br><span>{l s='Your order will be sent very soon.' d='Modules.Cashonpickup.Shop'}</span>
-  <br><br>{l s='For any questions or for further information, please contact our' d='Modules.Cashondpickup.Shop'} <a href="{$contact_url}">{l s='customer support' d='Modules.Cashonpickup.Shop'}</a>.
+  <br><br>{l s='For any questions or for further information, please contact our' d='Modules.Rf_Cashondpickup.Shop'} <a href="{$contact_url}">{l s='customer support' d='Modules.Cashonpickup.Shop'}</a>.
 </p>
